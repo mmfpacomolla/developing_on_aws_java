@@ -1,0 +1,71 @@
+!SESSION 2024-05-07 15:37:05.177 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ec2-user/environment/.c9/Lab7/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:10.478
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:10.830
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:10.946
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:10.951
+!MESSAGE Initializing Java Language Server 1.13.0.202206301619
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:11.266
+!MESSAGE Setting java.home /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.321-2.6.28.2.amzn2.0.2.x86_64 as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:12.677
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:12.717
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:12.884
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:13.112
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:13.710
+!MESSAGE Workspace initialized in 997ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:13.891
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:13.903
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:13.912
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:13.913
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:30.986
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:31.009
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:31.128
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-07 15:37:31.146
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 4 566 2024-05-07 15:37:31.279
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!STACK 0
+java.lang.Exception: Workspace was not properly initialized or has already shutdown.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Workspace.getWorkManager(Workspace.java:1817)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1481)
+	at org.eclipse.core.internal.events.AutoBuildJob$AutoBuildOffJob.run(AutoBuildJob.java:333)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

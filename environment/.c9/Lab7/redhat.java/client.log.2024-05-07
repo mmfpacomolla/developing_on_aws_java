@@ -1,0 +1,33 @@
+{
+  message: "Use the JDK from '' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-05-07 15:37:04.034'
+}
+{
+  message: 'Starting Java server with: /home/ec2-user/.c9/dependencies/redhat.java@linux-x64/3766f5fd94863af1f93a836b48f61b86550fca34421e1cb7c02cc2994853a1b56bdc5769dfcbb19c20591ed10c7b96e8a98fb5fa30ca65678cb6a415ac3c3f13/jre/17.0.3-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=UTF-8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /opt/c9/dependencies/redhat.java@linux-x64/3766f5fd94863af1f93a836b48f61b86550fca34421e1cb7c02cc2994853a1b56bdc5769dfcbb19c20591ed10c7b96e8a98fb5fa30ca65678cb6a415ac3c3f13/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/ec2-user/environment/.c9/redhat.java/1.8.0/config_ss_linux -data /home/ec2-user/environment/.c9/Lab7/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-05-07 15:37:04.690'
+}
+{
+  message: 'Starting Java server with: /home/ec2-user/.c9/dependencies/redhat.java@linux-x64/3766f5fd94863af1f93a836b48f61b86550fca34421e1cb7c02cc2994853a1b56bdc5769dfcbb19c20591ed10c7b96e8a98fb5fa30ca65678cb6a415ac3c3f13/jre/17.0.3-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=UTF-8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/ec2-user/environment/.c9/Lab7/redhat.java -jar /opt/c9/dependencies/redhat.java@linux-x64/3766f5fd94863af1f93a836b48f61b86550fca34421e1cb7c02cc2994853a1b56bdc5769dfcbb19c20591ed10c7b96e8a98fb5fa30ca65678cb6a415ac3c3f13/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/ec2-user/environment/.c9/redhat.java/1.8.0/config_linux -data /home/ec2-user/environment/.c9/Lab7/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-05-07 15:37:04.899'
+}
+{
+  message: '[Error - 3:37:31 PM] May 7, 2024, 3:37:31 PM Workspace was not properly initialized or has already shutdown.\n' +
+    'Workspace was not properly initialized or has already shutdown.\n' +
+    'java.lang.Exception: Workspace was not properly initialized or has already shutdown.\n' +
+    '\tat org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)\n' +
+    '\tat org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.getWorkManager(Workspace.java:1817)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1481)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob$AutoBuildOffJob.run(AutoBuildJob.java:333)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-05-07 15:37:31.332'
+}
+{
+  message: '[Error - 3:37:32 PM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2024-05-07 15:37:32.295'
+}
